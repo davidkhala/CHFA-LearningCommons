@@ -3,6 +3,8 @@ CHFA preparation notes
 
 
 # About CHFA
+[logo]: https://www.hyperledger.org/wp-content/uploads/2018/09/HL_Certification_Badges_150ppi-Fabric-300x272.png "Logo Title Text 2"
+
 https://www.hyperledger.org/resources/training/hyperledger-fabric-certification
 
 ## Candidate handbook(temp)
