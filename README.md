@@ -2,7 +2,7 @@
 CHFA preparation notes
 
 
-# About Certificate Hyperledger Fabric Admin
+# About Certified Hyperledger Fabric Administrator
 
 [![](https://www.hyperledger.org/wp-content/uploads/2018/09/HL_Certification_Badges_150ppi-Fabric-300x272.png "CHFA")](#)
 
