@@ -63,3 +63,6 @@ Network Maintenance and Operations – 20%
     Update a Hyperledger Fabric instance
 
 
+# Setup
+
+see in `install.sh`
