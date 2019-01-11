@@ -46,3 +46,20 @@ fabric-samples/first-network/byfn.sh generate
 
 Configure service discovery node (e.g. peer and orderer addresses)
 --------------------------
+CORE_PEER_DISCOVERY_ENABLED=true
+
+
+
+Appendix: discovery CLI
+------
+// write discovery config file
+export peerTLSCA=crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+export userKey=crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/8dfc639276e7799ba7674fe9554524e0d2a27851a452943e6801547dee14592a_sk
+export userCert=crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem
+discover --configFile conf.yaml --peerTLSCA $peerTLSCA --userKey $userKey --userCert $userCert  --MSP Org1MSP saveConfig
+
+//peer membership query
+discover --configFile conf.yaml peers --channel mychannel  --server peer0.org1.example.com:7051
+
+
+

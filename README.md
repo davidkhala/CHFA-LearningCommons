@@ -48,10 +48,10 @@ Diagnostics and Troubleshooting – 15%
 
 Membership Service Provider – 20%
 
+    Configure and start Hyperledger Fabric CA
     Configure ACL
     Create end user identity
     Revoke an identity
-    Configure and start Hyperledger Fabric CA
     Configure Hyperledger Fabric for hardware security module
 
 Network Maintenance and Operations – 20%
