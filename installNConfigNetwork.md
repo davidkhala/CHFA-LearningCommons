@@ -1,4 +1,4 @@
- Define network config options (block creation options, etc)
+Define network config options (block creation options, etc)
 ----------------------
 fabric-samples/first-network/configtx.yaml 
 line:202

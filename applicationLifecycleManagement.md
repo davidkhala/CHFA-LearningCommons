@@ -3,8 +3,12 @@ Install and Instantiate chaincode package
 --------
 peer chaincode install -n sacc -p github.com/chaincode/sacc -v 0
 
+Or see in first-network/scripts/utils.sh
+
 Configure endorsement policy
 --------
+
+[TODO] endorsing policy looks not take effect, try it with nodejs
 peer chaincode instantiate -o orderer.example.com:7050 -C mychannel \
 -n sacc -v 0 -c '{"Args":["john","0"]}' -P "AND ('Org1MSP.member','Org2MSP.member')" \
 --tls --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
